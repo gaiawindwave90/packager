@@ -107,7 +107,7 @@ export const downloadProject = async (projectData, progressCallback = () => {}, 
     },
 
     processJSON(type, projectData) {
-      if (type === 'sb3' || type === 'pm' || type === 'pmp') {
+      if (type === 'sb3' || type === 'pm' || type === 'pmp' || type === 'gaia' || type === 'dino' || type === 'snail' || type === 'electra') {
         mutateScratch3InPlace(projectData);
         analysis = analyzeScratch3(projectData);
         return projectData;
