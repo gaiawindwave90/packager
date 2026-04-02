@@ -30,8 +30,8 @@ If this is set to an empty string, the link is removed.
 */
 
 module.exports = {
-  APP_NAME: 'PenguinMod Packager',
-  WEBSITE: 'https://studio.penguinmod.com/PenguinMod-Packager/',
+  APP_NAME: 'GaiaMod Packager',
+  WEBSITE: 'https://gaiawindwave90.github.io/packager/',
   COPYRIGHT_NOTICE: `Copyright (C) 2021-2022 Thomas Weber
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -45,15 +45,15 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.`,
-  ACCENT_COLOR: '#00c3ff',
-  SOURCE_CODE: 'https://github.com/PenguinMod/PenguinMod-Packager',
+  ACCENT_COLOR: '#0800FF',
+  SOURCE_CODE: 'https://github.com/gaiawindwave90/packager',
   FEEDBACK_PRIMARY: {
     name: 'Discord',
     link: 'https://discord.gg/NZ9MBMYTZh'
   },
   FEEDBACK_SECONDARY: {
     name: 'GitHub',
-    link: 'https://github.com/PenguinMod/PenguinMod-Packager/issues'
+    link: 'https://github.com/gaiawindwave90/packager/issues'
   },
   DONATE: 'https://penguinmod.com/donate',
   PRIVACY_POLICY: 'https://turbowarp.org/privacy.html',
