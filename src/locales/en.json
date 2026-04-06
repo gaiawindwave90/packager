@@ -1,7 +1,7 @@
 {
   "p4": {
     "description1": {
-      "string": "Converts PenguinMod projects into HTML files, zip archives, or executable programs for Windows, macOS, and Linux."
+      "string": "Converts GaiaMod projects into HTML files, zip archives, or executable programs for Windows, macOS, and Linux."
     },
     "description2": {
       "string": "If you just want an easy way to embed a project into your website, you may be interested in {embedding}."
@@ -34,7 +34,7 @@
       "context": "Error displayed when the packager detects that you are using an old version and that you must refresh to continue."
     },
     "cannotAccessProject": {
-      "string": "Can't access the project. This usually means the project doesn't exist, the ID is invalid, the project was deleted, or your network is blocking projects.penguinmod.com.",
+      "string": "Can't access the project. This usually means the project doesn't exist, the ID is invalid, the project was deleted, or your network is blocking gaiamod-main.github.io/Gaia-Home.",
       "context": "Part of the error modal when loading an inaccessible project."
     },
     "cannotAccessProjectCaching": {
@@ -119,11 +119,11 @@
       "string": "Select Project"
     },
     "selectHelp": {
-      "string": "Select the project you want to package by copying and pasting the PenguinMod project link or using one of the other modes. If you use a project you didn't make, make sure to credit the creator."
+      "string": "Select the project you want to package by copying and pasting the GaiaMod project link or using one of the other modes. If you use a project you didn't make, make sure to credit the creator."
     },
     "id": {
-      "string": "PenguinMod Project ID or URL",
-      "context": "Radio option to select a project from the PenguinMod website"
+      "string": "GaiaMod Project ID or URL",
+      "context": "Radio option to select a project from the GaiaMod website"
     },
     "file": {
       "string": "File",
@@ -131,7 +131,7 @@
     },
     "url": {
       "string": "Other URL",
-      "context": "Radio option to choose a project from a non-PenguinMod URL"
+      "context": "Radio option to choose a project from a non-GaiaMod URL"
     },
     "loadProject": {
       "string": "Load Project",

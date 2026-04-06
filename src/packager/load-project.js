@@ -35,19 +35,12 @@ const fromURL = async (url, progressCallback) => {
   return downloadProject(buffer, progressCallback);
 };
 
-const fromID = (id, token, progressCallback) => {
-  const tokenPart = token ? `?token=${token}` : '';
-  const url = `https://projects.penguinmod.com/api/projects/getPublished?type=file&id=${id}`;
-  return fromURL(url, progressCallback);
-};
-
 const fromFile = async (file, progressCallback) => {
   const buffer = await readAsArrayBuffer(file);
   return downloadProject(buffer, progressCallback);
 };
 
 export default {
-  fromID,
   fromURL,
   fromFile
 };
